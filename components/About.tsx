@@ -11,7 +11,8 @@ const About: React.FunctionComponent = (): React.ReactElement => {
 						About
 					</p>
 					<h2 className="py-4">Who I am</h2>
-					<p>
+					<p className="py-2 text-gray-600">I am not your normal developer</p>
+					<p className="py-2 text-gray-600">
 						I consider myself a strong junior developer. My main stack is
 						React/Node.js I have experience with relational databases as well as
 						NoSQL databases such as MongoDB. I exclusively use TypeScript in my
@@ -21,7 +22,7 @@ const About: React.FunctionComponent = (): React.ReactElement => {
 						fascinating about programming is that you always learn something
 						new.
 					</p>
-					<p>
+					<p className="py-2 text-gray-600">
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic nisi
 						labore numquam eum dolorem adipisci eaque corrupti voluptatem
 						voluptatum quia corporis voluptate perspiciatis sapiente, illum
@@ -29,9 +30,12 @@ const About: React.FunctionComponent = (): React.ReactElement => {
 						eligendi. Ad vel assumenda eveniet error iste aliquam quae molestiae
 						laboriosam ducimus obcaecati excepturi perferendis, placeat fugit?
 					</p>
+					<p className="py-2 text-gray-600 underline cursor-pointer">
+						Check out some of my latest projects
+					</p>
 				</div>
-				<div>
-					<Image src={myImage} alt="/" />
+				<div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+					<Image className="rounded-xl" src={myImage} alt="/" />
 				</div>
 			</div>
 		</div>
